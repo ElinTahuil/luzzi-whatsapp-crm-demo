@@ -1,0 +1,30 @@
+node_modules/
+data/
+logs/
+.env
+*.log
+# Dependencias
+node_modules/
+
+# Variables de entorno (NUNCA subir secretos al repo)
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Temporales
+tmp/
+*.tmp
